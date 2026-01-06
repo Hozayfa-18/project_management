@@ -68,6 +68,9 @@ const DisclaimerModal = () => {
             <p className="text-text-secondary leading-relaxed">
               All data, content, and information shown in this preview are <strong>for demonstration purposes only</strong> and do not represent actual production data.
             </p>
+            <p className="text-text-secondary leading-relaxed">
+              Please note that <strong>some features and functions are restricted</strong> in this preview version and may not be fully functional or accessible.
+            </p>
           </div>
         </div>
 
