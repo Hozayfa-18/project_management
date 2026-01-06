@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import ErrorBoundary from "./components/ErrorBoundary";
+import DisclaimerModal from "./components/DisclaimerModal";
 
 // Page imports
 import LoginRegister from "./pages/login-register";
@@ -16,6 +17,7 @@ const Routes = () => {
   return (
     <BrowserRouter>
       <ErrorBoundary>
+        <DisclaimerModal />
         <ScrollToTop />
         <RouterRoutes>
           <Route path="/login-register" element={<LoginRegister />} />
